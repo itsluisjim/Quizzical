@@ -102,7 +102,7 @@ export default function App() {
                 <div className="result-container">
                     {isCompleted?
                         <>
-                            <h3>Your scoref {score} / {questions.length} correct answers</h3>
+                            <h3>Your scored {score} / {questions.length} correct answers</h3>
                             <button 
                                 className="check-btn" 
                                 onClick={resetQuestions}
